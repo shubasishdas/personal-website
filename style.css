@@ -1,1 +1,136 @@
-i
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+    line-height: 20%;
+}
+.pink-color-highlight{
+    color: rgb(236, 76, 122);
+}
+.half-width{
+    width: 43%;
+    float: left;
+    padding-top: 6%;  
+}
+#header-left-part{
+    padding-left: 13%;
+    padding-top:16%;
+
+}
+.half-width img{
+    width: 80%;
+}
+.header{
+    background-image: url(Images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,rgb(236, 91, 132),rgb(236, 76, 122));
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    
+}
+.biography{
+    background-image: url(Images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#biography-image{
+    padding-left: 10%;    
+}
+p{
+    color: dimgray;
+}
+
+.latest-work{
+    background-image: url(Images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding:120px;
+    background-position: center; 
+}
+.latest-work-heading{
+    padding-top: 3%;
+    text-align: center;
+}
+.latest-work-image-width{
+    width: 31%;
+    float: left;
+    padding: 1%;
+    padding-top: 6%;
+}
+.latest-work-image-width img{
+    width: 100%;
+}
+.project-github{
+    text-align: center;
+    padding-top: 350px;
+    
+}
+a.github-link{
+    background-image:linear-gradient(45deg,yellowgreen,yellowgreen);
+    font-weight: bold;
+    padding:10px 50px;
+    border-radius: 30px;
+}
+.footer-section{
+    background-image: url(Images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+      
+   
+}
+.footer-email{
+    color: white;
+    position: relative;
+    left: 300px;
+    border-radius:15px;
+    width:50%;
+    text-align: center;
+    margin-top: 400px;
+    padding: 15px 20px;
+    background-image:linear-gradient(45deg,rgb(174, 219, 85),yellowgreen);
+}
+/*
+.footer-email{
+    
+    margin: auto;
+    width: 45%;
+    height: 100px;
+    text-align: center;
+    border: 2px solid greenyellow;
+
+}
+*/
+.single-experience{
+    box-shadow:10px 10px 10px grey;
+    border-radius: 5px;
+    height:50%;
+    width: 40%;
+    margin: 30px;
+    padding: 25px;
+}
+.review{
+    width: 100%;
+    margin: auto;
+    text-align: justify;   
+}
+footer p{
+    text-align: center;
+    font-size: 15px;
+}
