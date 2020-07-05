@@ -9,33 +9,33 @@ h2{
     font-size: 30px;
     line-height: 20%;
 }
-.pink-color-highlight{
+.pink-color-highlight{                     /* Convert color into pink color */
     color: rgb(236, 76, 122);
 }
-.half-width{
+.half-width{                               /* Place two div horizontally in single section*/
     width: 43%;
     float: left;
     padding-top: 6%;  
 }
-#header-left-part{
+#left-part-1st2ndSection{                   /* Left part of Top section(heading section) */
     padding-left: 13%;
     padding-top:16%;
 
 }
-.half-width img{
+.half-width img{                            /* Image placed in half-width class*/
     width: 80%;
 }
-.header{
+.header{                                   /* Top section's class name*/
     background-image: url(Images/header-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-section{
+section{                                    /* For section attribute*/
     height: 500px;
     padding-bottom: 150px;
 }
-.link-button{
+.link-button{                               /*For First two sections click button */
     text-decoration: none;
     background-image: linear-gradient(45deg,rgb(236, 91, 132),rgb(236, 76, 122));
     padding: 10px 30px;
@@ -43,59 +43,70 @@ section{
     color: white;
     
 }
-.biography{
+.biography{                                 /* 2nd section's class name*/
     background-image: url(Images/biography-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-#biography-image{
+#biography-image{                           /* 2nd section's image ID name */
     padding-left: 10%;    
 }
-p{
+p{                                         /* For all paragraph in Website */
     color: dimgray;
 }
 
-.latest-work{
+.latest-work{                             /* 3rd section or latest-work section class name */
     background-image: url(Images/latest-work-bg.png);
     background-repeat: no-repeat;
     background-size: 100%;
     padding:120px;
     background-position: center; 
 }
-.latest-work-heading{
+.latest-work-heading{                    /* latest-work section heading class name */
     padding-top: 3%;
     text-align: center;
 }
-.latest-work-image-width{
+.latest-work-image-width{               /* latest-work section image class name */
     width: 31%;
     float: left;
     padding: 1%;
     padding-top: 6%;
 }
-.latest-work-image-width img{
+.latest-work-image-width img{            /*latest-work section class name with img attribute */
     width: 100%;
 }
-.project-github{
+.project-github{                        /* 3rd section last div class name */
     text-align: center;
     padding-top: 350px;
     
 }
-a.github-link{
+a.github-link{                            /* 3rd section last div anchor's class name */
     background-image:linear-gradient(45deg,yellowgreen,yellowgreen);
     font-weight: bold;
     padding:10px 50px;
     border-radius: 30px;
 }
-.footer-section{
+.what-my-client-say-section{                /*4th section or what-my-client-say-section class name */
     background-image: url(Images/footer-bg.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    text-align: center;
-      
-   
+    text-align: center;  
 }
-.footer-email{
+.review{                                     /* 4th section review class name */
+    box-shadow:10px 10px 10px grey;
+    border-radius: 5px;
+    height:50%;
+    width: 40%;
+    margin: 30px;
+    padding: 25px;
+}
+.comment{                                       /* 4th section comment class name */
+    width: 100%;
+    margin: auto;
+    text-align: justify;   
+}
+.contact-email{                                  /* 4th section contact-email class name */
     color: white;
     position: relative;
     left: 300px;
@@ -106,31 +117,7 @@ a.github-link{
     padding: 15px 20px;
     background-image:linear-gradient(45deg,rgb(174, 219, 85),yellowgreen);
 }
-/*
-.footer-email{
-    
-    margin: auto;
-    width: 45%;
-    height: 100px;
-    text-align: center;
-    border: 2px solid greenyellow;
-
-}
-*/
-.single-experience{
-    box-shadow:10px 10px 10px grey;
-    border-radius: 5px;
-    height:50%;
-    width: 40%;
-    margin: 30px;
-    padding: 25px;
-}
-.review{
-    width: 100%;
-    margin: auto;
-    text-align: justify;   
-}
-footer p{
+footer p{                                        /* footer paragraph */
     text-align: center;
     font-size: 15px;
 }
